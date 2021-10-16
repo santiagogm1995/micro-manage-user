@@ -1,0 +1,11 @@
+{
+  "name": "micro-read-user",
+  "version": "1.0.0",
+  "description": "Micro service to manage users in SQLlite BBDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "santiagogm1995",
+  "license": "MIT"
+}
