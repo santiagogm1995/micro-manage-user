@@ -4,8 +4,17 @@
   "description": "Micro service to manage users in SQLlite BBDD",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js"
   },
   "author": "santiagogm1995",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hana-cli": "^2.202109.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-google": "^0.14.0",
+    "prettier": "^2.4.1"
+  }
 }
