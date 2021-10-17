@@ -4,7 +4,7 @@
   "description": "Micro service to manage users in SQLlite BBDD",
   "main": "index.js",
   "scripts": {
-    "start": "node src/server.js"
+    "start": "node --experimental-json-modules src/server.js"
   },
   "author": "santiagogm1995",
   "license": "MIT",
@@ -16,5 +16,6 @@
     "eslint": "^8.0.1",
     "eslint-config-google": "^0.14.0",
     "prettier": "^2.4.1"
-  }
+  },
+  "type": "module"
 }
