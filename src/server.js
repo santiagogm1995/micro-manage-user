@@ -13,3 +13,5 @@ app.use(userRoutes);
 app.listen(config.prop.port, () => {
   console.log(`Example app listening at http://localhost:${config.prop.port}`);
 });
+
+export default app;
