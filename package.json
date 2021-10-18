@@ -4,7 +4,8 @@
   "description": "Micro service to manage users in SQLlite BBDD",
   "main": "index.js",
   "scripts": {
-    "start": "node --experimental-json-modules src/server.js"
+    "start": "node --experimental-json-modules src/server.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "author": "santiagogm1995",
   "license": "MIT",
@@ -15,7 +16,15 @@
   "devDependencies": {
     "eslint": "^8.0.1",
     "eslint-config-google": "^0.14.0",
-    "prettier": "^2.4.1"
+    "jest": "^27.3.0",
+    "prettier": "^2.4.1",
+    "supertest": "^6.1.6"
   },
-  "type": "module"
+  "type": "module",
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  }
 }
